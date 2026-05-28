@@ -30,4 +30,4 @@ def self_test():
       else:
         encoder_inputs, decoder_inputs, target_weights = model.get_batch(data_set, bucket_id=None)
         model.step(sess, encoder_inputs, decoder_inputs, target_weights, True, bucket_id=None)
-    print('Test successful!')
+    print('Test successful!')
