@@ -19,4 +19,4 @@ def decode():
     print(response)
     print("> ", end="")
     sys.stdout.flush()
-    sentence = sys.stdin.readline()
+    sentence = sys.stdin.readline()
