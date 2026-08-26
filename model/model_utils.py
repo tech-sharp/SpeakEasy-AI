@@ -46,4 +46,4 @@ def create_model(session, forward_only):
       # tf.train.write_graph(session.graph_def, params.log_dir, 'graph.pbtxt')
       session.run(tf.initialize_all_variables())
 
-  return model
+  return model
