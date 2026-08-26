@@ -47,4 +47,4 @@ class ChatBot(object):
     if data_utils.EOS_ID in outputs:
       outputs = outputs[:outputs.index(data_utils.EOS_ID)]
     # Return sentence corresponding to outputs.
-    return " ".join([self.rev_vocab[output] for output in outputs])
+    return " ".join([self.rev_vocab[output] for output in outputs])
