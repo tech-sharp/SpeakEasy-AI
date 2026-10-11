@@ -188,4 +188,4 @@ def prepare_data(data_dir, vocabulary_size):
 
 
   return (train_ids_path, dev_ids_path, vocab_path)
-
+
