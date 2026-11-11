@@ -125,4 +125,4 @@ module.exports = function parseTextBody(sentence) {
 
         return text
     }
-}
+}
