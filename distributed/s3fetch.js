@@ -80,4 +80,4 @@ countDataAvailable().then(function(data) {
   dataSet = data;
   // Do whatever you want
   fetchTrainingPair();
-});
+});

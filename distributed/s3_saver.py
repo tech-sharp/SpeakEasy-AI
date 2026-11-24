@@ -58,4 +58,4 @@ def upload_variable(variable):
 
 if __name__ == "__main__":
   print('Saving to s3')
-  save_variables()
+  save_variables()
